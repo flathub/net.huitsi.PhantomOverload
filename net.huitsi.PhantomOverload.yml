@@ -1,8 +1,8 @@
 app-id: net.huitsi.PhantomOverload
 base: org.godotengine.godot.BaseApp
-base-version: '4.6'
+base-version: '4.7'
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: godot-runner
 finish-args:
@@ -24,14 +24,14 @@ modules:
   - install -D -m644 LICENSES/CC0-1.0.txt -t /app/share/licenses/net.huitsi.PhantomOverload/phantom-overload
   sources:
   - type: archive
-    url: https://codeberg.org/Huitsi/PhantomOverload/releases/download/1.0/PhantomOverload-1.0-pck_only.tar.gz
-    sha256: e82f4b466cfb506f8752fc65503575039ffcf1e2903da0e8c7a4d1107b350ece
+    url: https://codeberg.org/Huitsi/PhantomOverload/releases/download/1.1/PhantomOverload-1.1-pck_only.tar.gz
+    sha256: 7ea882172ff804eefd9cdeae2863dd5c22a457f5b7d7a5906840470607c3e237
   - type: file
     url: https://codeberg.org/Huitsi/PhantomOverload/raw/commit/eb5b2935abbcb7294104ddd33fe54c5d22b96459/PhantomOverload/icon.svg
     sha256: da47d2d69e45fa4be9fe5edc523a8bfb408031326cafe9f2a07594d1aae7a1db
   - type: file
-    url: https://codeberg.org/Huitsi/PhantomOverload/raw/commit/eb5b2935abbcb7294104ddd33fe54c5d22b96459/net.huitsi.PhantomOverload.metainfo.xml
-    sha256: 58fd5f1a2d1fca875f5b00d7a761693f9aa72d7f75afbcd4159bea91b98239d5
+    url: https://codeberg.org/Huitsi/PhantomOverload/raw/commit/4c697403e97b25040e94cc732169778dca6776ad/net.huitsi.PhantomOverload.metainfo.xml
+    sha256: 981bf7702a0d3f79d96cfa159a15d48470edfa59c4ec02337a3bafab3e3c4716
   - type: file
     url: https://codeberg.org/Huitsi/PhantomOverload/raw/commit/af06fa4ff60f113d650caeab51449fc89822d3ce/net.huitsi.PhantomOverload.desktop
     sha256: 1e2864a6187bfd9eef2843093af41c624ba5025e7c02e84cf1e4a0b6b00a002a
